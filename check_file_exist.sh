@@ -1,5 +1,7 @@
 !/bin/bash
-read -p "Entrez le nom du fichier : " filename.
+echo "Entrez le nom du fichier : " filename.
+read
+
 if [ -f "filename" ]; then
     echo "Le fichier 'filename' existe."
 else

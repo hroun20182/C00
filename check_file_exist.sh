@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "Entrer le nom du fichier : " 
+
 read FICHIER
+
 if [ -f "$FICHIER" ]; then
   echo "Le fichier '$FICHIER' existe."
 else

@@ -1,2 +1,2 @@
 #/bin/bash
-date "+%Y-%m-%d %H:%M:%S"
+echo "Date et heure actuelles : $(date '+%Y-%m-%d %H:%M:%S')"
